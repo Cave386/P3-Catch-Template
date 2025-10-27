@@ -3,16 +3,16 @@
 <!-- https://ardalis.com/how-to-embed-youtube-video-in-github-readme-markdown/ -->
 
 ### Codespaces/VSCode Tutorial
-[![Thumbnail for tutorial video](https://img.youtube.com/vi/R8-glh-Twh4/maxresdefault.jpg)](https://www.youtube.com/watch?v=R8-glh-Twh4)
 
-alternate html test
 <a href="https://www.youtube.com/watch?v=R8-glh-Twh4" target="_blank">
-  <img src="https://img.youtube.com/vi/R8-glh-Twh4/maxresdefault.jpg" alt="Thumbnail for tutorial video" width="300">
+  <img src="https://img.youtube.com/vi/R8-glh-Twh4/maxresdefault.jpg" alt="Thumbnail for tutorial video" width="500">
 </a>
 
 
 ### Local CLion Tutorial
-[![Thumbnail for CLion tutorial video](https://img.youtube.com/vi/T6CG9T7nFaA/maxresdefault.jpg)](https://www.youtube.com/watch?v=T6CG9T7nFaA)
+<a href="https://www.youtube.com/watch?v=T6CG9T7nFaA" target="_blank">
+  <img src="https://img.youtube.com/vi/T6CG9T7nFaA/maxresdefault.jpg" alt="Thumbnail for CLion tutorial video" width="500">
+</a>
 
 **See [the bottom of this document](#common-issues) for common issues and their solutions before asking for help in Slack!**
 
@@ -23,6 +23,7 @@ This template sets up the Catch2 testing framework for you and provides a scaffo
 **From the very start of your project!** By following principles of *Test Driven Development* (TDD) from the very start of your project, you create a tangible roadmap of features to implement, and you can be confident in knowing that your simpler features work when implementing more advanced ones. If you don't develop with testing in mind, you may end up having to refactor your code so you can test the output of functions (or use a workaround to capture COUT). 
 
 It is recommended that before you start writing any functionality, you define an API (application programming interface) that your project will adhere to, and then write tests that assert how you expect each feature to work. Then, you can write the actual implementation that can pass the tests that you defined. Consider the following image:
+
 ![TDD diagram](.github-images/tdd.jpg)
 
 By using this template *right when you start work on your project*, you can write tests as you go and finish working on the project more quickly.
